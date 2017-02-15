@@ -1,7 +1,6 @@
 /** Created by Gloria Anholt on 11/6/16. **/
 
-const chai = require('chai');
-const assert = chai.assert;
+const assert = require('chai').assert;
 const chaiHttp = require('chai-http');
 chai.use(chaiHttp);
 
